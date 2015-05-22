@@ -1,1 +1,27 @@
-/********** RRR **********/
+
+
+/********** HEADER **********/
+
+header {
+	border: 1px solid black;
+}
+
+img.align-left {
+	float: left;
+	margin-right: 10px;
+	height: 30%;
+	width: 30%;
+}
+
+nav {
+	border: 1px solid black;	
+}
+
+
+/********** FOOTER **********/
+
+footer {
+	border: 1px solid black;
+}
+
+
