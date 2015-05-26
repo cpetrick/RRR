@@ -1,15 +1,11 @@
 
 
 /*****************************
-HEADER 
+GENERAL
 *****************************/
 
-header {
-	background-color: #d6cfa5;
-	color: #80716a;
-	box-shadow: 0 0 20px #777777;
-	margin: 0 0 100px 0;
-
+a {
+	text-decoration: none;
 }
 
 
@@ -29,22 +25,30 @@ img.align-left {
 HEADER AND FOOTER TEXT 
 *****************************/
 
-div.address {
-	text-align: center;
+header {
+	text-align: right;
+	font-family: 'Pacifico', sans-serif;
 
 }
 
 #logo {
-	font-family: 'Pacifico', sans-serif;
+	
 	font-size: 3em;
 	float: left;
+	font-weight: normal;
+	line-height: 0.8em;
 
 }
 
+footer {
+	text-align: center;
+	font-size: 0.75em;
+}
 
-/****************************** 
-OFFERINGS/RATES/SPECIALS 
-*******************************/
+
+/************************************
+OFFERINGS/RATES/SPECIALS BUTTONS
+************************************/
 
 .buttons-background {
 	background: #bf9076;
@@ -55,35 +59,43 @@ OFFERINGS/RATES/SPECIALS
 
 .button {
 	color:  #80716a;
-	text-decoration: none;
 	text-align: right;
+
 }
 
 
 li {
 	display: inline;
 	margin: 20px;
-
+	font-size: 1.25em;
 }
-
-nav a.buttons-background, nav a:hover{
-	color: white;
-
-}
-
 
 
 
 
 
 /***************************** 
-FOOTER 
+COLORS 
 *****************************/
+
+
+header {
+	background-color: #d6cfa5;
+	color: #80716a;
+	box-shadow: 0 0 20px #777777;
+	/*margin: 0 0 100px 0;*/
+}
+
+nav a.buttons-background, nav a:hover{
+	color: white;
+}
+
 
 footer {
 	background-color: #d6cfa5;
 	box-shadow: 0 0 20px #777777;
 	color: #a5a283;
+	
 }
 
 
