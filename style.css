@@ -98,4 +98,20 @@ footer {
 	
 }
 
+/************************************
+Containers
+************************************/
+section {
+	font-family:  'Arimo', sans-serif;
+}
+
+.leftColumn {
+	border: solid 1px black;
+  	float: left;
+  	padding: 20%
+  	margin-right 10px;
+  	width: 20%;
+ 
+}
+
 
