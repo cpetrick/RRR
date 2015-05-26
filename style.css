@@ -26,23 +26,31 @@ HEADER AND FOOTER TEXT
 *****************************/
 
 header {
-	text-align: right;
 	font-family: 'Pacifico', sans-serif;
-
+	font-weight: normal;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	text-align: right;
+	top: 0px;
+	width: 100%;
 }
 
 #logo {
-	
 	font-size: 3em;
 	float: left;
 	font-weight: normal;
-	line-height: 0.8em;
-
+	line-height: 1em;
+	margin: 10px;
 }
 
 footer {
-	text-align: center;
+	
 	font-size: 0.75em;
+	margin-top: 50px;
+	padding: 15px 0;
+	text-align: center;
 }
 
 
@@ -50,28 +58,19 @@ footer {
 OFFERINGS/RATES/SPECIALS BUTTONS
 ************************************/
 
-.buttons-background {
-	background: #bf9076;
-	box-shadow: 0 0 20px #777777;
-	margin-top: 8%;	
-
-}
 
 .button {
 	color:  #80716a;
+	margin-right: 5%;
 	text-align: right;
-
 }
 
 
 li {
-	display: inline;
-	margin: 20px;
+	display: inline-block;
 	font-size: 1.25em;
+	margin: 5px 10px;	
 }
-
-
-
 
 
 /***************************** 
@@ -81,9 +80,15 @@ COLORS
 
 header {
 	background-color: #d6cfa5;
-	color: #80716a;
 	box-shadow: 0 0 20px #777777;
-	/*margin: 0 0 100px 0;*/
+	color: #80716a;
+	
+	
+}
+
+.buttons-background {
+	background: #bf9076;
+	box-shadow: 0 0 20px #777777;
 }
 
 nav a.buttons-background, nav a:hover{
@@ -103,13 +108,14 @@ Containers
 ************************************/
 section {
 	font-family:  'Arimo', sans-serif;
+	margin-top: 200px; /* for fixed header */
 }
 
 .leftColumn {
 	border: solid 1px black;
   	float: left;
   	padding: 20%
-  	margin-right 10px;
+  	margin-right: 10px;
   	width: 20%;
  
 }
