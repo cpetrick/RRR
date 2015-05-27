@@ -39,7 +39,7 @@ header {
 	margin: 10px;
 	text-align: center;
 	width: 98%;
-	
+
 
 }
 
@@ -60,7 +60,7 @@ HEADER BUTTONS
 
 
 li {
-	
+
 	font-size: 1.25em;
 	margin: 5px 10px;
 	display: inline-block;
@@ -160,7 +160,7 @@ section {
 	width: 95%;
 	margin: 2%;
 	float: left;
-	
+
 }*/
 
 .article2 {
@@ -188,4 +188,3 @@ img.small {
 	padding-top: 10px;
 	width: 3%;
 }
-
