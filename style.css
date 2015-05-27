@@ -9,8 +9,8 @@ a {
 }
 
 
-/****************************** 
-HEADER PICTURE 
+/******************************
+HEADER PICTURE
 ******************************/
 
 img.align-left {
@@ -21,8 +21,8 @@ img.align-left {
 }
 
 
-/***************************** 
-HEADER AND FOOTER TEXT 
+/*****************************
+HEADER AND FOOTER TEXT
 *****************************/
 
 header {
@@ -46,7 +46,7 @@ header {
 }
 
 footer {
-	
+
 	font-size: 0.75em;
 	margin-top: 50px;
 	padding: 15px 0;
@@ -60,6 +60,7 @@ OFFERINGS/RATES/SPECIALS BUTTONS
 
 
 .buttons {
+
 	color:  #80716a;
 	margin-right: 5%;
 	text-align: right;
@@ -69,12 +70,12 @@ OFFERINGS/RATES/SPECIALS BUTTONS
 li {
 	display: inline-block;
 	font-size: 1.25em;
-	margin: 5px 10px;	
+	margin: 5px 10px;
 }
 
 
-/***************************** 
-COLORS 
+/*****************************
+COLORS
 *****************************/
 
 
@@ -82,8 +83,8 @@ header {
 	background-color: #d6cfa5;
 	box-shadow: 0 0 20px #777777;
 	color: #80716a;
-	
-	
+
+
 }
 
 .buttons-background {
@@ -103,7 +104,7 @@ footer {
 	background-color: #d6cfa5;
 	box-shadow: 0 0 20px #777777;
 	color: #a5a283;
-	
+
 }
 
 /************************************
@@ -119,6 +120,14 @@ section {
  	width: 100%;
 }
 
+.columns {
+	/*float: left;
+  	width: 100%;
+  	position: relative;
+ 	right: 50%;*/
+
+}
+
 
 
 .column1of2 {
@@ -126,8 +135,8 @@ section {
   	width: 50%;
   	margin: 50px;
   	border: 3px solid green;
-  	
- 
+
+
 }
 
 .button {
@@ -135,6 +144,7 @@ section {
 	border:1px solid #d6bcd6;
 	display:inline-block;
 	cursor:pointer;
+	color:#3a8a9e;
 	color: black;
 	font-family:Arial;
 	font-size:17px;
@@ -149,8 +159,8 @@ section {
   	width: 30%;
   	margin: 50px;
   	border: 3px solid green;
-  	
- 
+
+
 }
 
 .article1 {
@@ -162,5 +172,3 @@ section {
 	border: 1px solid black;
 
 }
-
-
