@@ -59,7 +59,7 @@ OFFERINGS/RATES/SPECIALS BUTTONS
 ************************************/
 
 
-.button {
+.buttons {
 	color:  #80716a;
 	margin-right: 5%;
 	text-align: right;
@@ -107,6 +107,8 @@ footer {
 Containers
 ************************************/
 section {
+	border: 1px solid black;
+
 	font-family:  'Arimo', sans-serif;
 	margin-top: 200px; /* for fixed header */
 	clear: left;
