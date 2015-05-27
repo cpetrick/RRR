@@ -16,7 +16,7 @@ HEADER AND FOOTER TEXT
 header {
 	background-image: url("flowers.jpg");
 	font-weight: normal;
-	max-height: 30%;
+	max-height: 175px;
 	left: 0px;
 	margin: 0 0 20px 0;
 	position: fixed;
@@ -39,10 +39,11 @@ header {
 	margin: 10px;
 	text-align: center;
 	width: 98%;
+	
+
 }
 
 .buttons-background {
-	margin-top: 5%;
 	text-align: right;
 }
 
@@ -59,9 +60,10 @@ HEADER BUTTONS
 
 
 li {
-	display: inline-block;
+	
 	font-size: 1.25em;
 	margin: 5px 10px;
+	display: inline-block;
 }
 
 
@@ -92,7 +94,7 @@ nav a.buttons-background, nav a:hover{
 
 footer {
 	background-image: url("flowers.jpg");
-	box-shadow: 0 0 20px #777777;
+	/*box-shadow: 0 0 20px #777777;*/
 	color: #f55f51;
 }
 
@@ -159,30 +161,32 @@ section {
 }
 
 
+
 /*.article1 {
 	border: 1px solid black;
 
 }*/
 
 
+
 .benefits {
-	border: 3px solid green;
-	width: 95%;
-	margin: 2%;
-	float: left;
+	/*border: 3px solid green;*/
+	width: 60%;
+	margin: 10px;
 }
 
-.specials {
+/*.specials {
 	border: 3px solid green;
 	width: 95%;
 	margin: 2%;
 	float: left;
-}
+	
+}*/
 
 /*.article2 {
 	border: 1px solid black;
 
-<<<<<<< HEAD
+
 }*/
 
 
@@ -197,7 +201,6 @@ footer {
 	border: 1px solid black;
 
 	font-size: 50%;
-
 	padding: 15px 0;
 	text-align: center;
 }
