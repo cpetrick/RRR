@@ -114,6 +114,7 @@ section {
 	clear: left;
   	float: left;
  	width: 100%;
+ 	background-color: #F6F4EB;
 }
 
 
@@ -122,7 +123,8 @@ section {
 	float: left;
   	width: 50%;
   	margin: 50px;
-  	border: 3px solid green;
+  	/*border: 3px solid green;*/
+  	font-size: 90%;
   	
  
 }
@@ -139,6 +141,8 @@ section {
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
 	box-shadow: 3px 4px 0px 0px #899599;
+	text-transform: uppercase;
+	background-color: #5c564c;
 }
 
 .column2of2 {
