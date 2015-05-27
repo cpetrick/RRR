@@ -9,8 +9,8 @@ a {
 }
 
 
-/****************************** 
-HEADER PICTURE 
+/******************************
+HEADER PICTURE
 ******************************/
 
 img.align-left {
@@ -21,8 +21,8 @@ img.align-left {
 }
 
 
-/***************************** 
-HEADER AND FOOTER TEXT 
+/*****************************
+HEADER AND FOOTER TEXT
 *****************************/
 
 header {
@@ -46,7 +46,7 @@ header {
 }
 
 footer {
-	
+
 	font-size: 0.75em;
 	margin-top: 50px;
 	padding: 15px 0;
@@ -59,7 +59,8 @@ OFFERINGS/RATES/SPECIALS BUTTONS
 ************************************/
 
 
-.button {
+.buttons {
+
 	color:  #80716a;
 	margin-right: 5%;
 	text-align: right;
@@ -69,12 +70,12 @@ OFFERINGS/RATES/SPECIALS BUTTONS
 li {
 	display: inline-block;
 	font-size: 1.25em;
-	margin: 5px 10px;	
+	margin: 5px 10px;
 }
 
 
-/***************************** 
-COLORS 
+/*****************************
+COLORS
 *****************************/
 
 
@@ -82,8 +83,8 @@ header {
 	background-color: #d6cfa5;
 	box-shadow: 0 0 20px #777777;
 	color: #80716a;
-	
-	
+
+
 }
 
 .buttons-background {
@@ -100,13 +101,15 @@ footer {
 	background-color: #d6cfa5;
 	box-shadow: 0 0 20px #777777;
 	color: #a5a283;
-	
+
 }
 
 /************************************
 Containers
 ************************************/
 section {
+	border: 1px solid black;
+
 	font-family:  'Arimo', sans-serif;
 	margin-top: 200px; /* for fixed header */
 	clear: left;
@@ -122,13 +125,15 @@ section {
 
 }
 
-.leftColumn {
+
+
+.column1of2 {
 	float: left;
-  	width: 46%;
-  	position: relative;
-  	left: 52%;
-  	overflow: hidden;
- 
+  	width: 50%;
+  	margin: 50px;
+  	border: 3px solid green;
+
+
 }
 
 .button {
@@ -137,6 +142,7 @@ section {
 	display:inline-block;
 	cursor:pointer;
 	color:#3a8a9e;
+	color: black;
 	font-family:Arial;
 	font-size:17px;
 	padding:7px 25px;
@@ -145,4 +151,21 @@ section {
 	box-shadow: 3px 4px 0px 0px #899599;
 }
 
+.column2of2 {
+	float: left;
+  	width: 30%;
+  	margin: 50px;
+  	border: 3px solid green;
 
+
+}
+
+.article1 {
+	border: 1px solid black;
+
+}
+
+.article2 {
+	border: 1px solid black;
+
+}
