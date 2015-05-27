@@ -125,9 +125,9 @@ section {
 
 .contentColumn {
 	float: left;
-  width: 45%;
-  margin: 2%;
-  border: 3px solid green;
+  	width: 45%;
+  	margin: 2%;
+  	/*border: 3px solid green;*/
 }
 
 .button {
@@ -145,8 +145,21 @@ section {
 	box-shadow: 3px 4px 0px 0px #899599;
 	text-transform: uppercase;
 	background-color: #5c564c;
-	margin-left: 45px;
+	margin-left: 7%;
+
+
 }
+
+#offerings {
+	font-size: 90%;
+}
+
+.title {
+	font-weight: bold;
+	margin-left: 45px;
+
+}
+
 
 
 .benefits {
@@ -163,10 +176,12 @@ section {
 
 }*/
 
-.article2 {
+/*.article2 {
 	border: 1px solid black;
 
-}
+
+}*/
+
 
 
 /************************************
