@@ -156,8 +156,6 @@ section {
 	text-transform: uppercase;
 	background-color: #5c564c;
 	margin-left: 45px;
-
-
 }
 
 
@@ -166,14 +164,19 @@ section {
 
 
 }
-.benefits, .specials {
+.benefits {
 	border: 3px solid green;
-	width: 40%;
-	margin: 50px;
+	width: 95%;
+	margin: 2%;
 	float: left;
-
 }
 
+.specials {
+	border: 3px solid green;
+	width: 95%;
+	margin: 10px;
+	float: left;
+}
 
 .article2 {
 	border: 1px solid black;
