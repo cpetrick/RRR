@@ -113,7 +113,7 @@ footer {
 Containers
 ************************************/
 section {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 
 	font-family:  'Arimo', sans-serif;
 	margin-top: 200px; /* for fixed header */
@@ -137,7 +137,7 @@ section {
 	float: left;
   	width: 45%;
   	margin: 2%;
-  	border: 3px solid green;
+  	/*border: 3px solid green;*/
 }
 
 .button {
@@ -155,17 +155,25 @@ section {
 	box-shadow: 3px 4px 0px 0px #899599;
 	text-transform: uppercase;
 	background-color: #5c564c;
-	margin-left: 45px;
+	margin-left: 7%;
 
 
 }
 
+#offerings {
+	font-size: 90%;
+}
 
-.article1 {
+.title {
+	font-weight: bold;
+}
+
+
+/*.article1 {
 	border: 1px solid black;
 
+}*/
 
-}
 .benefits, .specials {
 	border: 3px solid green;
 	width: 40%;
@@ -175,7 +183,7 @@ section {
 }
 
 
-.article2 {
+/*.article2 {
 	border: 1px solid black;
 
-}
+}*/
