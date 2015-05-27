@@ -1,0 +1,148 @@
+
+
+/*****************************
+GENERAL
+*****************************/
+
+a {
+	text-decoration: none;
+}
+
+
+/****************************** 
+HEADER PICTURE 
+******************************/
+
+img.align-left {
+	float: left;
+	height: 100px;
+	margin-right: 10px;
+	width: 100px;
+}
+
+
+/***************************** 
+HEADER AND FOOTER TEXT 
+*****************************/
+
+header {
+	font-family: 'Pacifico', sans-serif;
+	font-weight: normal;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	text-align: right;
+	top: 0px;
+	width: 100%;
+}
+
+#logo {
+	font-size: 3em;
+	float: left;
+	font-weight: normal;
+	line-height: 1em;
+	margin: 10px;
+}
+
+footer {
+	
+	font-size: 0.75em;
+	margin-top: 50px;
+	padding: 15px 0;
+	text-align: center;
+}
+
+
+/************************************
+OFFERINGS/RATES/SPECIALS BUTTONS
+************************************/
+
+
+.button {
+	color:  #80716a;
+	margin-right: 5%;
+	text-align: right;
+}
+
+
+li {
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 5px 10px;	
+}
+
+
+/***************************** 
+COLORS 
+*****************************/
+
+
+header {
+	background-color: #d6cfa5;
+	box-shadow: 0 0 20px #777777;
+	color: #80716a;
+	
+	
+}
+
+.buttons-background {
+	background: #bf9076;
+	box-shadow: 0 0 20px #777777;
+}
+
+nav a.buttons-background, nav a:hover{
+	color: white;
+}
+
+
+footer {
+	background-color: #d6cfa5;
+	box-shadow: 0 0 20px #777777;
+	color: #a5a283;
+	
+}
+
+/************************************
+Containers
+************************************/
+section {
+	font-family:  'Arimo', sans-serif;
+	margin-top: 200px; /* for fixed header */
+	clear: left;
+  	float: left;
+ 	width: 100%;
+}
+
+.columns {
+	/*float: left;
+  	width: 100%;
+  	position: relative;
+ 	right: 50%;*/
+
+}
+
+.leftColumn {
+	float: left;
+  	width: 46%;
+  	position: relative;
+  	left: 52%;
+  	overflow: hidden;
+ 
+}
+
+.button {
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+	box-shadow: 3px 4px 0px 0px #899599;
+}
+
+
