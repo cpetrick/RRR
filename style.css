@@ -116,20 +116,15 @@ section {
  	width: 100%;
 }
 
-.columns {
-	/*float: left;
-  	width: 100%;
-  	position: relative;
- 	right: 50%;*/
 
-}
 
-.leftColumn {
+.column1of2 {
 	float: left;
-  	width: 46%;
-  	position: relative;
+  	width: 400px;
+  	margin: 30px;
+  	/*position: relative;
   	left: 52%;
-  	overflow: hidden;
+  	overflow: hidden;*/
  
 }
 
