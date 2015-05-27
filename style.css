@@ -9,63 +9,52 @@ a {
 }
 
 
-/******************************
-HEADER PICTURE
-******************************/
-
-img.align-left {
-	float: left;
-	height: 20%;
-	margin-right: 10%;
-	width: 100px;
-}
-
-
 /*****************************
 HEADER AND FOOTER TEXT
 *****************************/
 
 header {
-	font-family: 'Pacifico', sans-serif;
+	background-image: url("flowers.jpg");
 	font-weight: normal;
+	max-height: 30%;
 	left: 0px;
-	margin: 0px;
+	margin: 0 0 20px 0;
 	position: fixed;
-	text-align: right;
 	top: 0px;
 	width: 100%;
 }
 
-
-
 #logo {
-	/*border: 1px solid black;*/
-	/*padding: 10%;*/
+	font-family: 'Great Vibes', sans-serif;
 	font-size: 200%;
-	text-align: left;
-	line-height: 5%;
-	margin: 5%;
+	left: 0px;
+	margin: 0.5%;
+	padding: 0.5%;
+	width: 98%;
 }
 
-footer {
-
+.address {
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 100%;
-	margin-top: 50px;
-	padding: 15px 0;
+	margin: 10px;
 	text-align: center;
+	width: 98%;
+}
+
+.buttons-background {
+	margin-top: 5%;
+	text-align: right;
 }
 
 
 /************************************
-OFFERINGS/RATES/SPECIALS BUTTONS
+HEADER BUTTONS
 ************************************/
 
 
 .buttons {
-
-	color:  #80716a;
+	font-family: 'Open Sans Condensed', sans-serif;
 	margin-right: 5%;
-	text-align: right;
 }
 
 
@@ -76,44 +65,43 @@ li {
 }
 
 
+
 /*****************************
 COLORS
 *****************************/
 
 
 header {
-	background-color: #d6cfa5;
 	box-shadow: 0 0 20px #777777;
-	color: #80716a;
+	/*color: #f55f51;*/
+	color: #7f825f;
+}
 
-
+.buttons {
+	color: #7f825f;
 }
 
 .buttons-background {
-	background: #bf9076;
+	background: #f9948c;
 	box-shadow: 0 0 20px #777777;
 }
 
 nav a.buttons-background, nav a:hover{
-	color: white;
-}
-
-section {
-	background: #7f825f;
+	color: #F6F4EB;
 }
 
 footer {
-	background-color: #d6cfa5;
+	background-image: url("flowers.jpg");
 	box-shadow: 0 0 20px #777777;
-	color: #a5a283;
-
+	color: #f55f51;
 }
+
 
 /************************************
 Containers
 ************************************/
 section {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 
 	font-family:  'Arimo', sans-serif;
 	margin-top: 200px; /* for fixed header */
@@ -182,3 +170,26 @@ section {
 	border: 1px solid black;
 
 }
+
+
+/************************************
+FOOTER
+************************************/
+
+
+
+footer {
+	border: 1px solid black;
+
+	font-size: 50%;
+
+	padding: 15px 0;
+	text-align: center;
+}
+
+img.small {
+	height: 3%;
+	padding-top: 10px;
+	width: 3%;
+}
+
