@@ -96,6 +96,9 @@ nav a.buttons-background, nav a:hover{
 	color: white;
 }
 
+section {
+	background: #7f825f;
+}
 
 footer {
 	background-color: #d6cfa5;
