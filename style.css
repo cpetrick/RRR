@@ -147,19 +147,22 @@ section {
 
 .button {
 	border-radius:15px;
-	border:1px solid #d6bcd6;
-	display:inline-block;
-	cursor:pointer;
-	color:#3a8a9e;
-	color: black;
-	font-family:Arial;
-	font-size:17px;
-	padding:7px 25px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #e1e2ed;
+	border: 1px solid #d6bcd6;
+	display: inline-block;
+	cursor: pointer;
+	color: #3a8a9e;
+	color: white;
+	font-family: Arimo;
+	font-size: 15px;
+	padding: 7px 25px;
+	text-decoration: none;
+	/*text-shadow:0px 1px 0px #e1e2ed;*/
 	box-shadow: 3px 4px 0px 0px #899599;
 	text-transform: uppercase;
 	background-color: #5c564c;
+	margin-left: 45px;
+
+
 }
 
 .column2of2 {
