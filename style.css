@@ -133,16 +133,11 @@ section {
 
 
 
-.column1of2 {
+.contentColumn {
 	float: left;
-  	width: 50%;
-  	margin: 50px;
-
-  	/*border: 3px solid green;*/
-  	font-size: 90%;
-  	
- 
-
+  	width: 45%;
+  	margin: 2%;
+  	border: 3px solid green;
 }
 
 .button {
@@ -165,19 +160,20 @@ section {
 
 }
 
-.column2of2 {
-	float: left;
-  	width: 30%;
-  	margin: 50px;
-  	border: 3px solid green;
-
-
-}
 
 .article1 {
 	border: 1px solid black;
 
+
 }
+.benefits, .specials {
+	border: 3px solid green;
+	width: 40%;
+	margin: 50px;
+	float: left;
+
+}
+
 
 .article2 {
 	border: 1px solid black;
