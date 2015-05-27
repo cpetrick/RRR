@@ -15,8 +15,8 @@ HEADER PICTURE
 
 img.align-left {
 	float: left;
-	height: 100px;
-	margin-right: 10px;
+	height: 20%;
+	margin-right: 10%;
 	width: 100px;
 }
 
@@ -30,24 +30,26 @@ header {
 	font-weight: normal;
 	left: 0px;
 	margin: 0px;
-	padding: 0px;
 	position: fixed;
 	text-align: right;
 	top: 0px;
 	width: 100%;
 }
 
+
+
 #logo {
-	font-size: 3em;
-	float: left;
-	font-weight: normal;
-	line-height: 1em;
-	margin: 10px;
+	/*border: 1px solid black;*/
+	/*padding: 10%;*/
+	font-size: 200%;
+	text-align: left;
+	line-height: 5%;
+	margin: 5%;
 }
 
 footer {
 
-	font-size: 0.75em;
+	font-size: 100%;
 	margin-top: 50px;
 	padding: 15px 0;
 	text-align: center;
