@@ -120,11 +120,10 @@ section {
 
 .column1of2 {
 	float: left;
-  	width: 400px;
-  	margin: 30px;
-  	/*position: relative;
-  	left: 52%;
-  	overflow: hidden;*/
+  	width: 50%;
+  	margin: 50px;
+  	border: 3px solid green;
+  	
  
 }
 
@@ -133,13 +132,32 @@ section {
 	border:1px solid #d6bcd6;
 	display:inline-block;
 	cursor:pointer;
-	color:#3a8a9e;
+	color: black;
 	font-family:Arial;
 	font-size:17px;
 	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e1e2ed;
 	box-shadow: 3px 4px 0px 0px #899599;
+}
+
+.column2of2 {
+	float: left;
+  	width: 30%;
+  	margin: 50px;
+  	border: 3px solid green;
+  	
+ 
+}
+
+.article1 {
+	border: 1px solid black;
+
+}
+
+.article2 {
+	border: 1px solid black;
+
 }
 
 
