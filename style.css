@@ -10,24 +10,27 @@ a {
 
 
 /*****************************
-HEADER AND FOOTER TEXT
+HEADER 
 *****************************/
 
 header {
 	background-image: url("flowers.jpg");
+	box-shadow: 0 0 20px #777777;
+	color: #f55f51;
 	font-weight: normal;
-	max-height: 175px;
 	left: 0px;
 	margin: 0 0 20px 0;
+	max-height: 175px;
 	position: fixed;
 	top: 0px;
 	width: 100%;
-}
+	}
 
 #logo {
 	font-family: 'Great Vibes', sans-serif;
 	font-size: 200%;
 	left: 0px;
+	letter-spacing: 0.2em;
 	margin: 0.5%;
 	padding: 0.5%;
 	width: 98%;
@@ -35,8 +38,10 @@ header {
 
 .address {
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 100%;
-	margin: 10px;
+	font-size: 1.25em;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin: 5px;
 	text-align: center;
 	width: 98%;
 
@@ -50,56 +55,31 @@ HEADER BUTTONS
 ************************************/
 
 .buttons-background {
-	text-align: right;
-
-}
-
-.command {
-	font-family: 'Open Sans Condensed', sans-serif;
-	margin-right: 5%;
-	font-size: 1.25em;
-	margin: 5px 10px;
-	/*display: inline-block;*/
-	list-style-type: none;
-}
-
-/*
-li {
-
-	
-	display: inline-block;
-}
-*/
-
-
-/*****************************
-COLORS
-*****************************/
-
-
-header {
-	box-shadow: 0 0 20px #777777;
-	color: #f55f51;
-
-	
-}
-
-.command {
-	border: 1px solid black;
-	/*color: #E6FAFF;*/
-	color: #7f825f;
-}
-
-.buttons-background {
 	background: #f9948c;
 	box-shadow: 0 0 20px #777777;
+	list-style-type: none;
+	padding: 10px;
+	text-align: right;
+}
+
+.command {
+	color: #6d473a;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	margin-right: 5%;
+	margin: 5px 10px;
+}
+
+
+#off{
+	margin: 15px;
 }
 
 nav a.buttons-background, nav a:hover{
 	color: #F6F4EB;
 }
-
-
 
 
 /************************************
@@ -161,7 +141,6 @@ section {
 .title {
 	font-weight: bold;
 	margin-left: 45px;
-	
 }
 
 
@@ -170,15 +149,16 @@ section {
 	border: 3px solid green;
 	width: 60%;
 	margin: 10px;
+
 }
 
-/*.specials {
+.specials {
 	border: 3px solid green;
 	width: 95%;
 	margin: 2%;
 	float: left;
 
-}*/
+}
 
 /*.article2 {
 	border: 1px solid black;
@@ -193,17 +173,23 @@ FOOTER
 ************************************/
 
 footer {
-	font-size: 70%;
-	text-align: center;
-	clear: both;
-	box-shadow: 0 0 20px #777777;
-	padding-top: 2%;
-	color: #f55f51;
 	background-image: url("flowers.jpg");
+	box-shadow: 0 0 20px #777777;
+	clear: both;
+	color: #f55f51;
+	font-weight: bold;
+	font-size: 70%;
+	letter-spacing: 0.1em;
+	padding-top: 2%;
+	text-align: center;
 }
 
 img.small {
 	height: 3%;
 	padding-top: 10px;
 	width: 3%;
+}
+
+#copy {
+	padding-bottom: 10px;
 }
