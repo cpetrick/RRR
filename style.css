@@ -93,8 +93,8 @@ section {
 	clear: left;
   	float: left;
  	width: 100%;
- 	/*background-color: #F6F4EB;*/
- 	background-color: #99D6EB;
+ 	background-color: #F6F4EB;
+ 	
 }
 
 .columns {
@@ -112,9 +112,10 @@ section {
   	width: 45%;
   	margin: 2%;
   	/*border: 3px solid green;*/
+
 }
 
-.button {
+.book {
 	border-radius:15px;
 	border: 1px solid #d6bcd6;
 	display: inline-block;
@@ -130,34 +131,69 @@ section {
 	text-transform: uppercase;
 	background-color: #5c564c;
 	margin-left: 7%;
+	}
 
 
-}
+	
+.book:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.book:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+
+
 
 #offerings {
-	font-size: 90%;
+	font-size: 100%;
+	width: 50%
+	margin-left: 10%;
+	box-shadow: 0px 0 50px #d6cfa5 inset; 
 }
 
 .title {
 	font-weight: bold;
-	margin-left: 45px;
+	margin-left: 3%;
+	list-style-type: none;
+  	text-decoration: none;
+  	font-size: 110%;
+	
+}
+.desc{
+	margin-left: 3%;
+	list-style-type: none;
+  	text-decoration: none;
+  	font-size: 100%;
 }
 
 
 
 .benefits {
-	border: 3px solid green;
-	width: 60%;
-	margin: 10px;
-
+	/*border: 3px solid green;*/
+	width: 70%;
+	/*margin: 10px;*/
+	margin-left: 10%;
+	list-style-type: none;
+  	/*text-decoration: none;*/
+  	font-size: 100%;
+  	box-shadow: 0px 0 50px #d6cfa5 inset; 
 }
 
 .specials {
-	border: 3px solid green;
-	width: 95%;
-	margin: 2%;
-	float: left;
-
+	/*border: 3px solid green;*/
+	/*width: 95%;*/
+	/*margin: 2%;*/
+	/*float: left;*/
+	margin-top: 12%;
+	width: 70%;
+	margin-left: 10%;
+	list-style-type: none;
+	text-decoration: none;
+	box-shadow: 0px 0 50px #d6cfa5 inset; 
 }
 
 /*.article2 {
