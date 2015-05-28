@@ -116,6 +116,7 @@ section {
   	float: left;
  	width: 100%;
  	background-color: #F6F4EB;
+ 	
 }
 
 .columns {
@@ -136,7 +137,7 @@ section {
 
 }
 
-.button {
+.book {
 	border-radius:15px;
 	border: 1px solid #d6bcd6;
 	display: inline-block;
@@ -152,15 +153,28 @@ section {
 	text-transform: uppercase;
 	background-color: #5c564c;
 	margin-left: 7%;
+	}
 
 
-}
+	
+.book:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.book:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+
+
 
 #offerings {
 	font-size: 100%;
-	width: 60%
-	margin-left: 5%;
-
+	width: 50%
+	margin-left: 10%;
+	box-shadow: 0px 0 50px #d6cfa5 inset; 
 }
 
 .title {
@@ -183,12 +197,14 @@ section {
 
 .benefits {
 	/*border: 3px solid green;*/
-	width: 60%;
+	width: 70%;
 	/*margin: 10px;*/
-	margin-left: 15%;
+	margin-left: 10%;
 	list-style-type: none;
   	/*text-decoration: none;*/
   	font-size: 100%;
+  	box-shadow: 0px 0 50px #d6cfa5 inset; 
+
 }
 
 .specials {
@@ -196,10 +212,12 @@ section {
 	/*width: 95%;*/
 	/*margin: 2%;*/
 	/*float: left;*/
-	width: 60%;
-	margin-left: 15%;
+	margin-top: 12%;
+	width: 70%;
+	margin-left: 10%;
 	list-style-type: none;
 	text-decoration: none;
+	box-shadow: 0px 0 50px #d6cfa5 inset; 
 
 }
 
