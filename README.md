@@ -9,15 +9,34 @@ Team RRR!!!!!
 
 This is tc testing. CP-Edit for push-take 2
 
-To Do List
-|Item|Who|Status|
-|---|---|---|
-|Set up Git hub|team|Complete|
-|Review Requirements|team|Complete|
-|Rough outline of site|team|Complete|
-|Create WireFrame|team/Chris|Complete|
-|Colors/Look/Feel|team|In progress|
-|Create Header/Footer|Jennifer|In progress|
-|Create Left Container|Tracey|In progress|
-|Create Right Container|Chris|In progress|
+## Milestones
+|Item|Status|
+|---|---|
+|Set up Git hub|Complete|
+|Wireframe|Complete|
+|Colors/Look/Feel|Complete|
+|Create Header/Footer|Complete|
+|Create Left Container|In progress|
+|Create Right Container|In progress|
+
+### Chris
+- [x] Set up GH repo
+- [x] Create Wireframe PDF and upload
+- [x] Benefits
+- [x] Specials
+
+### Jennifer
+- [x] Set up html/css
+- [x] Suggest colors/font
+- [x] Header/Footer
+- [x] Links/social icons
+- [x] Logo and images
+
+### Tracey
+- [x] Document Milestones & To Do
+- [x] Offerings
+- [x] Booking button
+- [x] Offerings
+- [x] PDF
+
 
