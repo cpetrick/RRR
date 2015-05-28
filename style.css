@@ -92,11 +92,7 @@ nav a.buttons-background, nav a:hover{
 	color: #F6F4EB;
 }
 
-footer {
-	background-image: url("flowers.jpg");
-	/*box-shadow: 0 0 20px #777777;*/
-	color: #f55f51;
-}
+
 
 
 /************************************
@@ -110,7 +106,7 @@ section {
 	clear: left;
   	float: left;
  	width: 100%;
- 	background-color: #F6F4EB;
+ 	/*background-color: #F6F4EB;*/
 }
 
 .columns {
@@ -150,7 +146,7 @@ section {
 
 
 .benefits {
-	/*border: 3px solid green;*/
+	border: 3px solid green;
 	width: 60%;
 	margin: 10px;
 }
@@ -173,14 +169,14 @@ section {
 FOOTER
 ************************************/
 
-
-
 footer {
-	border: 1px solid black;
-
-	font-size: 50%;
-	padding: 15px 0;
+	font-size: 60%;
 	text-align: center;
+	clear: both;
+	box-shadow: 0 0 20px #777777;
+	padding-top: 2%;
+	color: #f55f51;
+	background-image: url("flowers.jpg");
 }
 
 img.small {
