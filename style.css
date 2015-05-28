@@ -51,6 +51,8 @@ HEADER BUTTONS
 
 .buttons-background {
 	text-align: right;
+	list-style-type: none;
+
 
 }
 
@@ -113,8 +115,7 @@ section {
 	clear: left;
   	float: left;
  	width: 100%;
- 	/*background-color: #F6F4EB;*/
- 	background-color: #99D6EB;
+ 	background-color: #F6F4EB;
 }
 
 .columns {
@@ -132,6 +133,7 @@ section {
   	width: 45%;
   	margin: 2%;
   	/*border: 3px solid green;*/
+
 }
 
 .button {
@@ -155,30 +157,51 @@ section {
 }
 
 #offerings {
-	font-size: 90%;
+	font-size: 100%;
+	width: 60%
+	margin-left: 5%;
+
 }
 
 .title {
 	font-weight: bold;
-	margin-left: 45px;
+	margin-left: 3%;
+	list-style-type: none;
+  	text-decoration: none;
+  	font-size: 110%;
+	
+}
+.desc{
+	margin-left: 3%;
+	list-style-type: none;
+  	text-decoration: none;
+  	font-size: 100%;
 	
 }
 
 
 
 .benefits {
-	border: 3px solid green;
+	/*border: 3px solid green;*/
 	width: 60%;
-	margin: 10px;
+	/*margin: 10px;*/
+	margin-left: 15%;
+	list-style-type: none;
+  	/*text-decoration: none;*/
+  	font-size: 100%;
 }
 
-/*.specials {
-	border: 3px solid green;
-	width: 95%;
-	margin: 2%;
-	float: left;
+.specials {
+	/*border: 3px solid green;*/
+	/*width: 95%;*/
+	/*margin: 2%;*/
+	/*float: left;*/
+	width: 60%;
+	margin-left: 15%;
+	list-style-type: none;
+	text-decoration: none;
 
-}*/
+}
 
 /*.article2 {
 	border: 1px solid black;
